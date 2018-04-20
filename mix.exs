@@ -22,7 +22,7 @@ defmodule PhoenixPubsubRedis.Mixfile do
   end
 
   defp deps do
-    [{:phoenix_pubsub, "~> 1.0"},
+    [{:phoenix_pubsub, github: "phoenixframework/phoenix_pubsub"},
      {:redix, "~> 0.6.1"},
      {:redix_pubsub, "~> 0.4.1"},
      {:ex_doc, "~> 0.17.1", only: :docs},
